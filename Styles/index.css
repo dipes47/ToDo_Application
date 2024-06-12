@@ -12,13 +12,16 @@ body {
   display: flex;
   justify-content: space-evenly;
   padding: 1%;
-  box-shadow: 2px 2px 5px 5px rgb(235, 235, 235);
+  box-shadow: 2px 2px 5px 5px rgb(218, 189, 189);
 }
 
 #links a {
   text-decoration: none;
   color: teal;
   font-size: 30px;
+}
+#form {
+  margin-top: 15px;
 }
 
 #submit {
@@ -87,6 +90,7 @@ th {
 
 table {
   margin: auto;
+  margin-top: 15px;
 }
 
 tbody {
