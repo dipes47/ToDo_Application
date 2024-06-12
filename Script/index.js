@@ -11,6 +11,9 @@ function myFunction(event) {
 
   var priority = document.querySelector("#Priority").value;
 
+  var inpSubmit = document.querySelector("#submit");
+  inpSubmit.style.backgroundColor = "brown";
+
   var todoObj = {
     name: name,
     qty: qty,
